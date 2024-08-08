@@ -32,6 +32,7 @@ class Stack:
             self.Top=self.Top.Next
             temp.Next=None
         self.Height-=1
+        return temp
             
 
 
